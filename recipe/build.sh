@@ -13,6 +13,10 @@ if [[ $target_platform == "osx-"* ]]; then
     OUR_CMAKE_FLAGS+="-DUSE_OPENMP=OFF"
 fi
 
+if [[ $target_platform == "osx-arm64" ]]; then
+    OUR_CMAKE_FLAGS+=" -DUSE_SSE=OFF"
+fi
+
 cmake ${SRC_DIR} \
     ${CMAKE_ARGS} \
     -DCMAKE_BUILD_TYPE=Release \
