@@ -64,7 +64,7 @@ about:
     This project contains command line tools to perform rigid,
     affine and non-linear registration of nifti or analyse images
     as well as utilities
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file:
     - LICENSE.txt
     - reg-io/nifti/LICENSE
