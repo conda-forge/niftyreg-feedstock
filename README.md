@@ -3,7 +3,7 @@ About niftyreg
 
 Home: https://github.com/KCL-BMEIS/niftyreg
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/niftyreg-feedstock/blob/main/LICENSE.txt)
 
